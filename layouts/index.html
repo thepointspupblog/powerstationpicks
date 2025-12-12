@@ -7,19 +7,19 @@
   <ul>
     <li>
       <span class="pick-label">Best Overall</span>
-      <span><a href="/products/ecoflow-delta-2/" class="pick-product">EcoFlow Delta 2</a> <span class="pick-price">$799</span></span>
+      <span><a href="/products/ecoflow-delta-2/" class="pick-product">EcoFlow Delta 2</a> <span class="pick-price">$399</span></span>
     </li>
     <li>
       <span class="pick-label">Best Value</span>
-      <span><a href="/products/bluetti-ac70/" class="pick-product">Bluetti AC70</a> <span class="pick-price">$499</span></span>
+      <span><a href="/products/bluetti-ac70/" class="pick-product">Bluetti AC70</a> <span class="pick-price">$379</span></span>
     </li>
     <li>
       <span class="pick-label">Best Budget</span>
-      <span><a href="/products/bluetti-eb3a/" class="pick-product">Bluetti EB3A</a> <span class="pick-price">$199</span></span>
+      <span><a href="/products/bluetti-eb3a/" class="pick-product">Bluetti EB3A</a> <span class="pick-price">$209</span></span>
     </li>
     <li>
       <span class="pick-label">Best Home Backup</span>
-      <span><a href="/products/ecoflow-delta-pro-3/" class="pick-product">EcoFlow Delta Pro 3</a> <span class="pick-price">$2,999</span></span>
+      <span><a href="/products/ecoflow-delta-pro-3/" class="pick-product">EcoFlow Delta Pro 3</a> <span class="pick-price">$2,299</span></span>
     </li>
   </ul>
 </div>
@@ -67,7 +67,7 @@
 <h2>All Power Stations</h2>
 <div class="product-grid">
   {{ range $.Site.Data.products }}
-  {{ partial "product-card.html" (dict "id" .id "name" .name "brand" .brand "capacity_wh" .capacity_wh "output_w" .output_w "weight_lbs" .weight_lbs "battery_type" .battery_type "price" .price "rating" .rating "asin" .asin "verdict" .verdict "best_for" .best_for "amazonTag" $.Site.Params.amazonTag) }}
+    {{ partial "product-card.html" . }}
   {{ end }}
 </div>
 {{ end }}
