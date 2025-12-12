@@ -4,14 +4,15 @@
 {{ with $product }}
 <div class="product-detail">
   <div class="product-header">
-    <div>
+    <div class="product-detail-image">
+      <img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN={{ .asin }}&Format=_SL350_&ID=AsinImage&ServiceVersion=20070822&WS=1&tag={{ $.Site.Params.amazonTag }}" alt="{{ .name }}">
+    </div>
+    <div class="product-header-info">
       <h1>{{ .name }}</h1>
       <div class="product-meta">
         <span class="product-brand">{{ .brand }}</span>
         {{ with .best_for }}<span class="best-for">{{ . }}</span>{{ end }}
       </div>
-    </div>
-    <div class="product-header-actions">
       <div class="product-rating"><span class="star">★</span> {{ .rating }}/5</div>
       <div class="product-price">${{ .price }}</div>
       <a href="https://www.amazon.com/dp/{{ .asin }}?tag={{ $.Site.Params.amazonTag }}" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>

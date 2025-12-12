@@ -1,4 +1,9 @@
 <div class="product-card">
+  <div class="product-image">
+    <a href="/products/{{ .id }}/">
+      <img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN={{ .asin }}&Format=_SL250_&ID=AsinImage&ServiceVersion=20070822&WS=1&tag={{ $.Site.Params.amazonTag }}" alt="{{ .name }}" loading="lazy">
+    </a>
+  </div>
   <div class="product-info">
     <div class="product-name"><a href="/products/{{ .id }}/">{{ .name }}</a></div>
     <div class="product-meta">
@@ -16,6 +21,6 @@
   <div class="product-actions">
     <div class="product-rating"><span class="star">★</span> {{ .rating }}</div>
     <div class="product-price">${{ .price }}</div>
-    <a href="https://www.amazon.com/dp/{{ .asin }}?tag={{ .amazonTag }}" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Amazon</a>
+    <a href="https://www.amazon.com/dp/{{ .asin }}?tag={{ $.Site.Params.amazonTag }}" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Amazon</a>
   </div>
 </div>
