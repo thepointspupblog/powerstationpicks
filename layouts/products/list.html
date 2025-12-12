@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>All Portable Power Station Reviews</h1>
+<p class="subtitle">{{ len $.Site.Data.products }} products compared</p>
+
+<div class="product-grid">
+  {{ range $.Site.Data.products }}
+  {{ partial "product-card.html" (dict "id" .id "name" .name "brand" .brand "capacity_wh" .capacity_wh "output_w" .output_w "weight_lbs" .weight_lbs "battery_type" .battery_type "price" .price "rating" .rating "asin" .asin "verdict" .verdict "best_for" .best_for "amazonTag" $.Site.Params.amazonTag) }}
+  {{ end }}
+</div>
+{{ end }}

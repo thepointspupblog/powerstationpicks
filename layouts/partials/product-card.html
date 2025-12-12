@@ -1,0 +1,21 @@
+<div class="product-card">
+  <div class="product-info">
+    <div class="product-name"><a href="/products/{{ .id }}/">{{ .name }}</a></div>
+    <div class="product-meta">
+      <span class="product-brand">{{ .brand }}</span>
+      {{ with .best_for }}<span class="best-for">{{ . }}</span>{{ end }}
+    </div>
+    <div class="product-specs">
+      <span><strong>{{ .capacity_wh }}Wh</strong></span>
+      <span>{{ .output_w }}W</span>
+      <span>{{ .weight_lbs }} lbs</span>
+      <span>{{ .battery_type }}</span>
+    </div>
+    <div class="product-verdict">{{ .verdict }}</div>
+  </div>
+  <div class="product-actions">
+    <div class="product-rating"><span class="star">★</span> {{ .rating }}</div>
+    <div class="product-price">${{ .price }}</div>
+    <a href="https://www.amazon.com/dp/{{ .asin }}?tag={{ .amazonTag }}" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Amazon</a>
+  </div>
+</div>

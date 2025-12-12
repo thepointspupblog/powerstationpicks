@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{ $pid := .Params.product_id }}
+{{ $product := index (where $.Site.Data.products "id" $pid) 0 }}
+{{ with $product }}
+<div class="product-detail">
+  <div class="product-header">
+    <div>
+      <h1>{{ .name }}</h1>
+      <div class="product-meta">
+        <span class="product-brand">{{ .brand }}</span>
+        {{ with .best_for }}<span class="best-for">{{ . }}</span>{{ end }}
+      </div>
+    </div>
+    <div class="product-header-actions">
+      <div class="product-rating"><span class="star">★</span> {{ .rating }}/5</div>
+      <div class="product-price">${{ .price }}</div>
+      <a href="https://www.amazon.com/dp/{{ .asin }}?tag={{ $.Site.Params.amazonTag }}" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+    </div>
+  </div>
+
+  <p><strong>{{ .verdict }}</strong></p>
+
+  <h2>Specifications</h2>
+  <table class="specs-table">
+    <tr><th>Capacity</th><td>{{ .capacity_wh }}Wh</td></tr>
+    <tr><th>Output</th><td>{{ .output_w }}W continuous / {{ .surge_w }}W surge</td></tr>
+    <tr><th>Weight</th><td>{{ .weight_lbs }} lbs</td></tr>
+    <tr><th>Battery</th><td>{{ .battery_type }}</td></tr>
+    <tr><th>Cycle Life</th><td>{{ .cycles }}+ cycles</td></tr>
+    <tr><th>Price</th><td>${{ .price }}</td></tr>
+  </table>
+
+  <div class="pros-cons">
+    <div class="pros">
+      <h3>✓ Pros</h3>
+      <ul>{{ range .pros }}<li>{{ . }}</li>{{ end }}</ul>
+    </div>
+    <div class="cons">
+      <h3>✗ Cons</h3>
+      <ul>{{ range .cons }}<li>{{ . }}</li>{{ end }}</ul>
+    </div>
+  </div>
+
+  <a href="https://www.amazon.com/dp/{{ .asin }}?tag={{ $.Site.Params.amazonTag }}" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+</div>
+{{ end }}
+{{ end }}

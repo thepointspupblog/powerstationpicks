@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="category-header">
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Description }}</p>
+</div>
+
+{{ .Content }}
+
+{{ $cat := .Params.category_id }}
+<div class="product-grid">
+  {{ range $.Site.Data.products }}
+    {{ if in .categories $cat }}
+    {{ partial "product-card.html" (dict "id" .id "name" .name "brand" .brand "capacity_wh" .capacity_wh "output_w" .output_w "weight_lbs" .weight_lbs "battery_type" .battery_type "price" .price "rating" .rating "asin" .asin "verdict" .verdict "best_for" .best_for "amazonTag" $.Site.Params.amazonTag) }}
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

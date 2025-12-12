@@ -1,0 +1,59 @@
+baseURL = 'https://powerstationpicks.com/'
+languageCode = 'en-us'
+title = 'Best Power Station Reviews 2025'
+
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+  description = "Find the best portable power station for camping, RV, home backup, and emergencies. Expert reviews, comparisons, and buying guides."
+  amazonTag = "thepointspup-20"
+  googleAnalytics = "G-56KV7YCK4L"
+
+[taxonomies]
+  brand = "brands"
+
+[menu]
+  [[menu.main]]
+    name = "Reviews"
+    url = "/products/"
+    weight = 1
+  [[menu.main]]
+    name = "Comparisons"
+    url = "/comparisons/"
+    weight = 2
+  [[menu.main]]
+    name = "Buying Guides"
+    url = "/guides/"
+    weight = 3
+
+  [[menu.categories]]
+    name = "Camping"
+    url = "/categories/camping/"
+    weight = 1
+  [[menu.categories]]
+    name = "RV & Van Life"
+    url = "/categories/rv/"
+    weight = 2
+  [[menu.categories]]
+    name = "Home Backup"
+    url = "/categories/home-backup/"
+    weight = 3
+  [[menu.categories]]
+    name = "Emergency"
+    url = "/categories/emergency/"
+    weight = 4
+  [[menu.categories]]
+    name = "Budget (Under $500)"
+    url = "/categories/budget/"
+    weight = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
