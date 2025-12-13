@@ -1,73 +1,205 @@
 {{ define "main" }}
-<h1>Best Portable Power Stations 2025</h1>
-<p class="subtitle">Reviews, comparisons, and buying guides. Find the right power station for your needs.</p>
 
-<div class="quick-picks">
-  <h2>⚡ Quick Picks</h2>
-  <ul>
-    <li>
-      <span class="pick-label">Best Overall</span>
-      <span><a href="/products/ecoflow-delta-2/" class="pick-product">EcoFlow Delta 2</a> <span class="pick-price">$399</span></span>
-    </li>
-    <li>
-      <span class="pick-label">Best Value</span>
-      <span><a href="/products/bluetti-ac70/" class="pick-product">Bluetti AC70</a> <span class="pick-price">$379</span></span>
-    </li>
-    <li>
-      <span class="pick-label">Best Budget</span>
-      <span><a href="/products/bluetti-eb3a/" class="pick-product">Bluetti EB3A</a> <span class="pick-price">$209</span></span>
-    </li>
-    <li>
-      <span class="pick-label">Best Home Backup</span>
-      <span><a href="/products/ecoflow-delta-pro-3/" class="pick-product">EcoFlow Delta Pro 3</a> <span class="pick-price">$2,299</span></span>
-    </li>
-  </ul>
-</div>
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Find Your Perfect Portable Power Station</h1>
+  <p class="hero-subtitle">We've tested and reviewed the top power stations so you don't have to. Whether you need backup power for emergencies, off-grid electricity for camping, or reliable juice for your RV—we'll help you choose.</p>
+  <div class="hero-cta">
+    <a href="#top-picks" class="btn btn-primary">See Top Picks</a>
+    <a href="/guides/best-portable-power-stations/" class="btn btn-secondary">Read Buying Guide</a>
+  </div>
+</section>
 
-<h2>Browse by Use Case</h2>
-<div class="link-grid">
-  <a href="/categories/camping/" class="link-card">
-    <h3>🏕️ Camping</h3>
-    <p>Portable options for outdoor adventures</p>
-  </a>
-  <a href="/categories/rv/" class="link-card">
-    <h3>🚐 RV & Van Life</h3>
-    <p>Higher capacity for life on the road</p>
-  </a>
-  <a href="/categories/home-backup/" class="link-card">
-    <h3>🏠 Home Backup</h3>
-    <p>Keep essentials running during outages</p>
-  </a>
-  <a href="/categories/budget/" class="link-card">
-    <h3>💰 Budget (Under $500)</h3>
-    <p>Best value without breaking the bank</p>
-  </a>
-</div>
+<!-- Top Picks Section -->
+<section class="top-picks" id="top-picks">
+  <h2>⚡ Our Top Picks for 2025</h2>
+  <p class="section-subtitle">Tested, reviewed, and recommended by our team</p>
+  
+  <div class="featured-grid">
+    {{ range $.Site.Data.products }}
+      {{ if eq .id "ecoflow-delta-2" }}
+      <div class="featured-card featured-best">
+        <span class="featured-badge">Best Overall</span>
+        <div class="featured-image">
+          <a href="/products/{{ .id }}/"><img src="{{ .image }}" alt="{{ .name }}"></a>
+        </div>
+        <div class="featured-info">
+          <h3><a href="/products/{{ .id }}/">{{ .name }}</a></h3>
+          <div class="featured-price">${{ .price }}</div>
+          <p class="featured-why">Powers 90% of home appliances. Charges to 80% in 50 min.</p>
+          <div class="featured-specs">{{ .capacity_wh }}Wh • {{ .output_w }}W • {{ .weight_lbs }} lbs</div>
+          <a href="{{ .amazon_url }}" class="btn btn-amazon" target="_blank" rel="nofollow noopener">Check Price</a>
+        </div>
+      </div>
+      {{ end }}
+      {{ if eq .id "bluetti-ac70" }}
+      <div class="featured-card">
+        <span class="featured-badge badge-value">Best Value</span>
+        <div class="featured-image">
+          <a href="/products/{{ .id }}/"><img src="{{ .image }}" alt="{{ .name }}"></a>
+        </div>
+        <div class="featured-info">
+          <h3><a href="/products/{{ .id }}/">{{ .name }}</a></h3>
+          <div class="featured-price">${{ .price }}</div>
+          <p class="featured-why">Premium features at mid-range price. Best bang for buck.</p>
+          <div class="featured-specs">{{ .capacity_wh }}Wh • {{ .output_w }}W • {{ .weight_lbs }} lbs</div>
+          <a href="{{ .amazon_url }}" class="btn btn-amazon" target="_blank" rel="nofollow noopener">Check Price</a>
+        </div>
+      </div>
+      {{ end }}
+      {{ if eq .id "bluetti-eb3a" }}
+      <div class="featured-card">
+        <span class="featured-badge badge-budget">Best Budget</span>
+        <div class="featured-image">
+          <a href="/products/{{ .id }}/"><img src="{{ .image }}" alt="{{ .name }}"></a>
+        </div>
+        <div class="featured-info">
+          <h3><a href="/products/{{ .id }}/">{{ .name }}</a></h3>
+          <div class="featured-price">${{ .price }}</div>
+          <p class="featured-why">600W output at $209. Punches way above its price.</p>
+          <div class="featured-specs">{{ .capacity_wh }}Wh • {{ .output_w }}W • {{ .weight_lbs }} lbs</div>
+          <a href="{{ .amazon_url }}" class="btn btn-amazon" target="_blank" rel="nofollow noopener">Check Price</a>
+        </div>
+      </div>
+      {{ end }}
+      {{ if eq .id "ecoflow-delta-pro-3" }}
+      <div class="featured-card">
+        <span class="featured-badge badge-power">Best Home Backup</span>
+        <div class="featured-image">
+          <a href="/products/{{ .id }}/"><img src="{{ .image }}" alt="{{ .name }}"></a>
+        </div>
+        <div class="featured-info">
+          <h3><a href="/products/{{ .id }}/">{{ .name }}</a></h3>
+          <div class="featured-price">${{ .price }}</div>
+          <p class="featured-why">Whole-home backup. 4kWh expandable to 12kWh.</p>
+          <div class="featured-specs">{{ .capacity_wh }}Wh • {{ .output_w }}W • {{ .weight_lbs }} lbs</div>
+          <a href="{{ .amazon_url }}" class="btn btn-amazon" target="_blank" rel="nofollow noopener">Check Price</a>
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
 
-<h2>Buying Guides</h2>
-<div class="link-grid">
-  {{ range (where .Site.RegularPages "Section" "guides") }}
-  <a href="{{ .Permalink }}" class="link-card">
-    <h3>{{ .Title }}</h3>
-    <p>{{ .Description }}</p>
-  </a>
-  {{ end }}
-</div>
+<!-- Use Case Section -->
+<section class="use-cases">
+  <h2>What Do You Need Power For?</h2>
+  <p class="section-subtitle">Click your use case for tailored recommendations</p>
+  
+  <div class="use-case-grid">
+    <a href="/categories/camping/" class="use-case-card">
+      <div class="use-case-icon">🏕️</div>
+      <h3>Camping & Outdoors</h3>
+      <p>Lightweight, portable units under 30 lbs. Power phones, cameras, lights, and small coolers for weekend trips.</p>
+      <span class="use-case-link">See camping picks →</span>
+    </a>
+    
+    <a href="/categories/home-backup/" class="use-case-card">
+      <div class="use-case-icon">🏠</div>
+      <h3>Home Backup</h3>
+      <p>High-capacity units (2000Wh+) that keep your fridge, lights, and WiFi running during outages. Some integrate with home panels.</p>
+      <span class="use-case-link">See home backup picks →</span>
+    </a>
+    
+    <a href="/categories/rv/" class="use-case-card">
+      <div class="use-case-icon">🚐</div>
+      <h3>RV & Van Life</h3>
+      <p>Mid to high capacity with solar charging. Run your fridge, charge laptops, and power small appliances off-grid.</p>
+      <span class="use-case-link">See RV picks →</span>
+    </a>
+    
+    <a href="/categories/budget/" class="use-case-card">
+      <div class="use-case-icon">💰</div>
+      <h3>Budget (Under $500)</h3>
+      <p>Quality power stations without breaking the bank. Great options from $140-$400 for most casual users.</p>
+      <span class="use-case-link">See budget picks →</span>
+    </a>
+  </div>
+</section>
 
-<h2>Comparisons</h2>
-<div class="link-grid">
-  {{ range (where .Site.RegularPages "Section" "comparisons") }}
-  <a href="{{ .Permalink }}" class="link-card">
-    <h3>{{ .Title }}</h3>
-    <p>{{ .Description }}</p>
-  </a>
-  {{ end }}
-</div>
+<!-- Comparison Table -->
+<section class="comparison-section">
+  <h2>Quick Comparison</h2>
+  <p class="section-subtitle">Our top picks side-by-side</p>
+  
+  <div class="table-wrapper">
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Capacity</th>
+          <th>Output</th>
+          <th>Weight</th>
+          <th>Price</th>
+          <th>Best For</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $.Site.Data.products }}
+        {{ if or (eq .id "ecoflow-delta-2") (eq .id "jackery-explorer-1000-v2") (eq .id "bluetti-ac70") (eq .id "bluetti-eb3a") (eq .id "anker-solix-c1000") (eq .id "ecoflow-delta-pro-3") }}
+        <tr>
+          <td><strong><a href="/products/{{ .id }}/">{{ .name }}</a></strong></td>
+          <td>{{ .capacity_wh }}Wh</td>
+          <td>{{ .output_w }}W</td>
+          <td>{{ .weight_lbs }} lbs</td>
+          <td class="price-cell">${{ .price }}</td>
+          <td><span class="table-badge">{{ .best_for }}</span></td>
+          <td><a href="{{ .amazon_url }}" class="btn-small" target="_blank" rel="nofollow noopener">Buy</a></td>
+        </tr>
+        {{ end }}
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+  <p class="table-note"><a href="/products/">View all {{ len $.Site.Data.products }} power stations →</a></p>
+</section>
 
-<h2>All Power Stations</h2>
-<div class="product-grid">
-  {{ range $.Site.Data.products }}
-    {{ partial "product-card.html" . }}
-  {{ end }}
-</div>
+<!-- All Products -->
+<section class="all-products">
+  <h2>All Power Stations</h2>
+  <p class="section-subtitle">Browse our full collection of reviewed units</p>
+  
+  <div class="product-grid">
+    {{ range $.Site.Data.products }}
+      {{ partial "product-card.html" . }}
+    {{ end }}
+  </div>
+</section>
+
+<!-- Guides & Resources -->
+<section class="resources">
+  <div class="resources-grid">
+    <div class="resources-column">
+      <h3>📚 Buying Guides</h3>
+      <ul class="resources-list">
+        {{ range (where .Site.RegularPages "Section" "guides") }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    
+    <div class="resources-column">
+      <h3>⚖️ Comparisons</h3>
+      <ul class="resources-list">
+        {{ range (where .Site.RegularPages "Section" "comparisons") }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    
+    <div class="resources-column">
+      <h3>❓ Quick Answers</h3>
+      <ul class="resources-list">
+        <li><strong>How much capacity do I need?</strong><br>
+          <span class="resource-answer">300Wh for phones/laptops, 1000Wh for mini fridge, 2000Wh+ for full fridge</span></li>
+        <li><strong>LiFePO4 vs Li-ion?</strong><br>
+          <span class="resource-answer">LiFePO4 lasts 3-4x longer (3000+ cycles vs 500-800)</span></li>
+        <li><strong>Can I run my fridge?</strong><br>
+          <span class="resource-answer">Yes, with 1000Wh+ capacity and 1000W+ output</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 {{ end }}
