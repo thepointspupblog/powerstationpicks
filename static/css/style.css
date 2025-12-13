@@ -746,26 +746,146 @@ footer p { margin-bottom: 0.5rem; }
 .pros ul, .cons ul { padding-left: 1.25rem; }
 .pros li, .cons li { margin-bottom: 0.5rem; font-size: 0.9rem; }
 
-/* ===== GUIDE CONTENT ===== */
-.guide-content { max-width: 750px; padding: 2rem 1.5rem; }
-.guide-content h2 { border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; margin-top: 2rem; }
-.guide-content ul, .guide-content ol { margin: 1rem 0 1rem 1.5rem; }
-.guide-content li { margin-bottom: 0.5rem; }
+/* ===== GUIDE & COMPARISON CONTENT ===== */
+.guide-content { 
+  max-width: 800px; 
+  padding: 2rem 1.5rem; 
+}
+
+/* Page title with accent border */
+.guide-content h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--accent);
+}
+
+/* Description text after title */
+.guide-content > p:first-of-type {
+  font-size: 1.1rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+/* Section headings */
+.guide-content h2 { 
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+  color: var(--text);
+}
+
+.guide-content h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+/* Tables with blue headers */
 .guide-content table { 
   width: 100%; 
   border-collapse: collapse; 
-  margin: 1rem 0; 
-  font-size: 0.9rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  margin: 1.5rem 0; 
+  font-size: 0.95rem;
+  border: 2px solid var(--border);
+  border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
-.guide-content th, .guide-content td { 
-  padding: 0.75rem; 
-  text-align: left; 
-  border-bottom: 1px solid var(--border); 
+
+.guide-content th { 
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: left;
 }
-.guide-content th { background: var(--card-bg); font-weight: 600; }
+
+.guide-content td { 
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  background: #fff;
+}
+
+.guide-content tr:last-child td {
+  border-bottom: none;
+}
+
+.guide-content tbody tr:hover {
+  background: var(--accent-light);
+}
+
+/* Blockquotes as callout boxes */
+.guide-content blockquote {
+  background: var(--accent-light);
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  font-size: 1.05rem;
+}
+
+.guide-content blockquote p {
+  margin: 0;
+}
+
+/* Amazon/affiliate links as buttons */
+.guide-content a[href*="amazon"],
+.guide-content a[href*="amzn"] {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--orange);
+  color: #fff !important;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  transition: background 0.2s;
+}
+
+.guide-content a[href*="amazon"]:hover,
+.guide-content a[href*="amzn"]:hover {
+  background: var(--orange-hover);
+}
+
+/* Lists */
+.guide-content ul, 
+.guide-content ol { 
+  margin: 1rem 0 1.5rem 1.5rem; 
+}
+
+.guide-content li { 
+  margin-bottom: 0.5rem; 
+  line-height: 1.6;
+}
+
+/* Horizontal rules */
+.guide-content hr {
+  border: none;
+  height: 2px;
+  background: var(--border);
+  margin: 2.5rem 0;
+}
+
+/* Regular paragraphs */
+.guide-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+/* Strong/bold text */
+.guide-content strong {
+  font-weight: 700;
+  color: var(--text);
+}
 
 /* ===== MOBILE RESPONSIVE ===== */
 @media (max-width: 1024px) {
@@ -898,6 +1018,28 @@ footer p { margin-bottom: 0.5rem; }
   .comparison-table td {
     padding: 0.75rem 0.5rem;
   }
+  
+  /* Guide content mobile */
+  .guide-content {
+    padding: 1.5rem 1rem;
+  }
+  
+  .guide-content h1 {
+    font-size: 1.75rem;
+  }
+  
+  .guide-content h2 {
+    font-size: 1.3rem;
+  }
+  
+  .guide-content table {
+    font-size: 0.85rem;
+  }
+  
+  .guide-content th,
+  .guide-content td {
+    padding: 0.75rem 0.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -975,9 +1117,21 @@ footer p { margin-bottom: 0.5rem; }
   }
 
   .product-price { font-size: 1.2rem; }
+  
+  /* Guide content small mobile */
+  .guide-content h1 {
+    font-size: 1.5rem;
+  }
+  
+  .guide-content a[href*="amazon"],
+  .guide-content a[href*="amzn"] {
+    display: block;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
 }
 
-/* Guides Grid */
+/* ===== GUIDES & COMPARISONS LIST PAGES ===== */
 .guides-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -990,8 +1144,6 @@ footer p { margin-bottom: 0.5rem; }
   border: 2px solid var(--border);
   border-radius: 12px;
   padding: 1.5rem;
-  text-decoration: none;
-  color: var(--text);
   transition: all 0.2s;
 }
 
@@ -1005,6 +1157,15 @@ footer p { margin-bottom: 0.5rem; }
   font-size: 1.15rem;
   margin-bottom: 0.5rem;
   color: var(--text);
+}
+
+.guide-card h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.guide-card h3 a:hover {
+  color: var(--accent);
 }
 
 .guide-card p {

@@ -155,18 +155,6 @@
   <p class="table-note"><a href="/products/">View all {{ len $.Site.Data.products }} power stations →</a></p>
 </section>
 
-<!-- All Products -->
-<section class="all-products">
-  <h2>All Power Stations</h2>
-  <p class="section-subtitle">Browse our full collection of reviewed units</p>
-  
-  <div class="product-grid">
-    {{ range $.Site.Data.products }}
-      {{ partial "product-card.html" . }}
-    {{ end }}
-  </div>
-</section>
-
 <!-- Guides & Resources -->
 <section class="resources">
   <div class="resources-grid">
