@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  {{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
-  <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet" href="/css/style.css">
-  {{ with .Site.Params.googleAnalytics }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ . }}');
-  </script>
-  {{ end }}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Open Graph / Social Sharing -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ if .IsHome }}PowerStationPicks - Best Portable Power Station Reviews{{ else }}{{ .Title }} | PowerStationPicks{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Expert reviews and comparisons of portable power stations for camping, home backup, and emergencies.{{ end }}">
+<meta property="og:image" content="https://powerstationpicks.com/og-image.png">
+<meta property="og:site_name" content="PowerStationPicks">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}PowerStationPicks - Best Portable Power Station Reviews{{ else }}{{ .Title }} | PowerStationPicks{{ end }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Expert reviews and comparisons of portable power stations for camping, home backup, and emergencies.{{ end }}">
+<meta name="twitter:image" content="https://powerstationpicks.com/og-image.png">
+
+{{ with .Site.Params.googleAnalytics }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '{{ . }}');
+</script>
+{{ end }}
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-top">
-        <a href="/" class="logo">⚡ PowerStationPicks</a>
-        <nav>
-          {{ range .Site.Menus.main }}
-          <a href="{{ .URL }}">{{ .Name }}</a>
-          {{ end }}
-        </nav>
-      </div>
-      <div class="category-nav">
-        {{ range .Site.Menus.categories }}
-        <a href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <div class="container">
-      {{ block "main" . }}{{ end }}
-    </div>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; {{ now.Year }} PowerStationPicks</p>
-      <p>As an Amazon Associate, we earn from qualifying purchases. <a href="/disclosure/">Full Disclosure</a></p>
-      <p><a href="/disclosure/">Affiliate Disclosure</a> · <a href="/about/">About</a></p>
-    </div>
-  </footer>
+<header>
+<div class="container">
+<div class="header-top">
+<a href="/" class="logo">⚡ PowerStationPicks</a>
+<nav>
+{{ range .Site.Menus.main }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}
+</nav>
+</div>
+<div class="category-nav">
+{{ range .Site.Menus.categories }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}
+</div>
+</div>
+</header>
+<main>
+<div class="container">
+{{ block "main" . }}{{ end }}
+</div>
+</main>
+<footer>
+<div class="container">
+<p>&copy; {{ now.Year }} PowerStationPicks</p>
+<p>As an Amazon Associate, we earn from qualifying purchases. <a href="/disclosure/">Full Disclosure</a></p>
+<p><a href="/disclosure/">Affiliate Disclosure</a> · <a href="/about/">About</a></p>
+<p style="font-size: 0.8rem; margin-top: 0.5rem;">Prices shown are as of December 2025. Check Amazon for current pricing.</p>
+</div>
+</footer>
 </body>
 </html>
