@@ -1,16 +1,18 @@
 {{ define "main" }}
-<div class="category-header">
-  <h1>📚 Buying Guides</h1>
-  <p>Expert guides to help you choose the right power station for your needs.</p>
-</div>
+<div class="container" style="padding: 2rem 1.5rem;">
+  <div class="category-header">
+    <h1>📚 Buying Guides</h1>
+    <p>Expert guides to help you choose the right power station.</p>
+  </div>
 
-<div class="guides-grid">
-  {{ range .Pages }}
-  <a href="{{ .Permalink }}" class="guide-card">
-    <h3>{{ .Title }}</h3>
-    <p>{{ .Description }}</p>
-    <span class="guide-link">Read guide →</span>
-  </a>
-  {{ end }}
+  <div class="guides-grid">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}" class="guide-card">
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Description }}</p>
+      <span class="guide-link">Read guide →</span>
+    </a>
+    {{ end }}
+  </div>
 </div>
 {{ end }}
