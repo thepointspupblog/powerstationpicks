@@ -19,7 +19,7 @@ keywords: ["jackery vs ecoflow", "ecoflow vs jackery", "jackery or ecoflow"]
 | Weight | 24.2 lbs | 27 lbs |
 | Cycles | 4000 | 3000 |
 | 0-80% Charge | ~60 min | 50 min |
-| Price | $799 | $799 |
+| Price | $399 | $399 |
 
 ---
 
@@ -37,19 +37,17 @@ keywords: ["jackery vs ecoflow", "ecoflow vs jackery", "jackery or ecoflow"]
 ---
 
 ## Choose Jackery If:
-
 - You want simple, plug-and-play operation
 - Longer battery lifespan matters (4000 cycles)
 - You prefer US-based customer support
 
-<a href="https://www.amazon.com/dp/B0CJY8MZ4N?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Jackery 1000 v2 on Amazon</a>
+<a href="https://amzn.to/4iUUEDm" class="amazon-btn" target="_blank" rel="nofollow noopener">Jackery 1000 v2 on Amazon</a>
 
 ---
 
 ## Choose EcoFlow If:
-
 - Fast charging is important
 - You want smart features and app control
 - Higher output power matters
 
-<a href="https://www.amazon.com/dp/B0B9XB57XM?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">EcoFlow Delta 2 on Amazon</a>
+<a href="https://amzn.to/44oxwHg" class="amazon-btn" target="_blank" rel="nofollow noopener">EcoFlow Delta 2 on Amazon</a>

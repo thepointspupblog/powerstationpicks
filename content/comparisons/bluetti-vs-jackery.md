@@ -14,10 +14,10 @@ keywords: ["bluetti vs jackery", "jackery vs bluetti", "bluetti or jackery"]
 
 | Model | Capacity | Price | $/Wh |
 |-------|----------|-------|------|
-| Bluetti AC70 | 768Wh | $499 | $0.65 |
-| Jackery 1000 v2 | 1070Wh | $799 | $0.75 |
-| Bluetti EB3A | 268Wh | $199 | $0.74 |
-| Jackery 300 Plus | 288Wh | $299 | $1.04 |
+| Bluetti AC70 | 768Wh | $379 | $0.49 |
+| Jackery 1000 v2 | 1070Wh | $399 | $0.37 |
+| Bluetti EB3A | 268Wh | $209 | $0.78 |
+| Jackery 300 Plus | 288Wh | $349 | $1.21 |
 
 ---
 
@@ -25,7 +25,7 @@ keywords: ["bluetti vs jackery", "jackery vs bluetti", "bluetti or jackery"]
 
 | Category | Winner |
 |----------|--------|
-| Value ($/Wh) | **Bluetti** |
+| Value ($/Wh) | **Jackery** |
 | Build Quality | **Jackery** |
 | Customer Support | **Jackery** |
 | Features | **Bluetti** |
@@ -33,17 +33,15 @@ keywords: ["bluetti vs jackery", "jackery vs bluetti", "bluetti or jackery"]
 ---
 
 ## Choose Bluetti If:
-
 - Budget is a priority
-- You want more capacity per dollar
+- You want more features per dollar
 
-<a href="https://www.amazon.com/dp/B0CG5R9BZR?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Bluetti AC70 on Amazon</a>
+<a href="https://amzn.to/4rVxPn8" class="amazon-btn" target="_blank" rel="nofollow noopener">Bluetti AC70 on Amazon</a>
 
 ---
 
 ## Choose Jackery If:
-
 - Brand reputation matters
 - You want the simplest operation
 
-<a href="https://www.amazon.com/dp/B0CTPKZQZM?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Jackery 300 Plus on Amazon</a>
+<a href="https://amzn.to/3MwZmuV" class="amazon-btn" target="_blank" rel="nofollow noopener">Jackery 300 Plus on Amazon</a>

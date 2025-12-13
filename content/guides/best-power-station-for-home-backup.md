@@ -8,42 +8,42 @@ keywords: ["best power station for home backup", "home backup power station", "e
 
 | Model | Capacity | Output | Price |
 |-------|----------|--------|-------|
-| [EcoFlow Delta Pro 3](/products/ecoflow-delta-pro-3/) | 4000Wh | 4000W | $2,999 |
-| [Jackery 2000 Plus](/products/jackery-explorer-2000-plus/) | 2042Wh | 3000W | $1,899 |
-| [Bluetti AC200Max](/products/bluetti-ac200max/) | 2048Wh | 2200W | $1,599 |
-| [EcoFlow Delta 2](/products/ecoflow-delta-2/) | 1024Wh | 1800W | $799 |
+| [EcoFlow Delta Pro 3](/products/ecoflow-delta-pro-3/) | 4096Wh | 4000W | $2,299 |
+| [Jackery 2000 Plus](/products/jackery-explorer-2000-plus/) | 2042Wh | 3000W | $1,199 |
+| [Bluetti AC200L](/products/bluetti-ac200max/) | 2048Wh | 2400W | $1,099 |
+| [EcoFlow Delta 2](/products/ecoflow-delta-2/) | 1024Wh | 1800W | $399 |
 
 ---
 
-## Best Overall: EcoFlow Delta Pro 3 — $2,999
+## Best Overall: EcoFlow Delta Pro 3 — $2,299
 
-Serious home backup. 4000Wh runs a full-size fridge for 20-30 hours. Expandable to 12kWh. Integrates with your home panel.
+Serious home backup. 4096Wh runs a full-size fridge for 20-30 hours. Expandable to 12kWh. Integrates with your home panel.
 
-<a href="https://www.amazon.com/dp/B0D5RQWRNN?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+<a href="https://amzn.to/4oPLiKk" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
 
 ---
 
-## Best Mid-Range: Jackery 2000 Plus — $1,899
+## Best Mid-Range: Jackery 2000 Plus — $1,199
 
 2042Wh with Jackery reliability. Expandable to 12kWh. 3000W output handles most appliances.
 
-<a href="https://www.amazon.com/dp/B0CQ4M4P1K?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+<a href="https://amzn.to/3MAm5pV" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
 
 ---
 
-## Best Value: Bluetti AC200Max — $1,599
+## Best Value: Bluetti AC200L — $1,099
 
-Similar capacity for $300 less. Expandable to 8192Wh. Tons of ports.
+Similar capacity for less. Expandable to 8192Wh. Tons of ports.
 
-<a href="https://www.amazon.com/dp/B09PQWV3JH?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+<a href="https://amzn.to/3YvMqId" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
 
 ---
 
-## Budget Option: EcoFlow Delta 2 — $799
+## Budget Option: EcoFlow Delta 2 — $399
 
 For shorter outages (under 12 hours). Handles fridge, lights, phones, and router.
 
-<a href="https://www.amazon.com/dp/B0B9XB57XM?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+<a href="https://amzn.to/44oxwHg" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
 
 ---
 

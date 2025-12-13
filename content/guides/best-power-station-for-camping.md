@@ -8,42 +8,42 @@ keywords: ["best power station for camping", "camping power station", "best sola
 
 | Model | Capacity | Weight | Price |
 |-------|----------|--------|-------|
-| [Jackery 300 Plus](/products/jackery-explorer-300-plus/) | 288Wh | 8.27 lbs | $299 |
-| [Bluetti EB3A](/products/bluetti-eb3a/) | 268Wh | 10.1 lbs | $199 |
-| [EcoFlow River 2 Pro](/products/ecoflow-river-2-pro/) | 768Wh | 17.4 lbs | $399 |
-| [Jackery 1000 v2](/products/jackery-explorer-1000-v2/) | 1070Wh | 24.2 lbs | $799 |
+| [Jackery 300 Plus](/products/jackery-explorer-300-plus/) | 288Wh | 8.27 lbs | $349 |
+| [Bluetti EB3A](/products/bluetti-eb3a/) | 268Wh | 10.1 lbs | $209 |
+| [EcoFlow River 2 Pro](/products/ecoflow-river-2-pro/) | 768Wh | 17.4 lbs | $315 |
+| [Jackery 1000 v2](/products/jackery-explorer-1000-v2/) | 1070Wh | 24.2 lbs | $399 |
 
 ---
 
-## Best for Backpacking: Jackery 300 Plus — $299
+## Best for Backpacking: Jackery 300 Plus — $349
 
 At 8.27 lbs, it will not weigh you down. 288Wh is enough for phones, cameras, and LED lights for a weekend.
 
-<a href="https://www.amazon.com/dp/B0CTPKZQZM?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+<a href="https://amzn.to/3MwZmuV" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
 
 ---
 
-## Best Budget: Bluetti EB3A — $199
+## Best Budget: Bluetti EB3A — $209
 
-Under $200 with 600W output. Charge it before you leave and power your gear all weekend.
+Under $250 with 600W output. Charge it before you leave and power your gear all weekend.
 
-<a href="https://www.amazon.com/dp/B09YBWBGK8?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+<a href="https://amzn.to/4pAOD1f" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
 
 ---
 
-## Best for Car Camping: EcoFlow River 2 Pro — $399
+## Best for Car Camping: EcoFlow River 2 Pro — $315
 
 When you are driving to the campsite, weight matters less. 768Wh runs a mini cooler and charges everything.
 
-<a href="https://www.amazon.com/dp/B0BQ9H7FLV?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+<a href="https://amzn.to/4ptMpk2" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
 
 ---
 
-## Best for Extended Trips: Jackery 1000 v2 — $799
+## Best for Extended Trips: Jackery 1000 v2 — $399
 
 Week-long camping? The 1000 v2 has the capacity and reliability. Pair with solar panels for indefinite power.
 
-<a href="https://www.amazon.com/dp/B0CJY8MZ4N?tag=YOURTAG-20" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+<a href="https://amzn.to/4iUUEDm" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
 
 ---
 
