@@ -15,7 +15,7 @@
     "image": "/images/products/ecoflow-delta-2.png",
     "best_for": "Overall",
     "verdict": "Powers 90% of home appliances. Charges to 80% in just 50 minutes—fastest in class. Expandable up to 3kWh. The one reviewers call \"the power station to beat.\"",
-    "categories": ["camping", "home-backup", "rv"],
+    "categories": ["camping", "home-backup", "rv", "emergency", "budget"],
     "pros": [
       "Fastest charging: 0-80% in 50 minutes",
       "Powers fridges, power tools, even small AC units",
@@ -45,7 +45,7 @@
     "image": "/images/products/jackery-explorer-1000-v2.png",
     "best_for": "Reliability",
     "verdict": "\"The easiest power station recommendation I've ever made\" —Android Police. 4,000 cycle battery outlasts competitors. Kept a fridge and router running during a 7-day outage.",
-    "categories": ["camping", "home-backup", "rv"],
+    "categories": ["camping", "home-backup", "rv", "emergency", "budget"],
     "pros": [
       "4,000 charge cycles—10+ year lifespan",
       "Ultra-quiet operation even under load",
@@ -75,7 +75,7 @@
     "image": "/images/products/bluetti-ac70.png",
     "best_for": "Value",
     "verdict": "Premium features at a mid-range price. LiFePO4 battery, turbo charging to 80% in 45 min, and app control—features you'd expect at $600+. Best bang for your buck under $500.",
-    "categories": ["camping", "budget"],
+    "categories": ["camping", "budget", "emergency"],
     "pros": [
       "Best value: premium features under $400",
       "Turbo charges to 80% in 45 minutes",
@@ -135,7 +135,7 @@
     "image": "/images/products/ecoflow-delta-pro-3.png",
     "best_for": "Home Backup",
     "verdict": "Serious whole-home backup. 4kWh powers a fridge for 20-30 hours. Expandable to 12kWh. Integrates with your home panel for seamless backup. The closest thing to a home battery system in portable form.",
-    "categories": ["home-backup"],
+    "categories": ["home-backup", "emergency"],
     "pros": [
       "Massive 4,096Wh capacity",
       "Powers entire home essentials",
@@ -195,7 +195,7 @@
     "image": "/images/products/bluetti-eb3a.png",
     "best_for": "Ultra Budget",
     "verdict": "600W output at $209 is remarkable. Run a mini fridge, blender, or TV—appliances other budget units can't touch. Fast charging, LiFePO4, and app control. Punches way above its price.",
-    "categories": ["camping", "budget"],
+    "categories": ["camping", "budget", "emergency"],
     "pros": [
       "600W output—3x most budget units",
       "Can run small appliances",
@@ -225,7 +225,7 @@
     "image": "/images/products/ecoflow-river-2-pro.png",
     "best_for": "Fast Charging",
     "verdict": "0-100% in 70 minutes—unmatched charging speed. Perfect for car camping when you need to top up quickly. X-Boost pushes output to 1600W for power tools and small appliances.",
-    "categories": ["camping", "rv"],
+    "categories": ["camping", "rv", "budget"],
     "pros": [
       "Fastest full charge: 70 minutes",
       "X-Boost mode for higher loads",
@@ -255,7 +255,7 @@
     "image": "/images/products/bluetti-ac200max.png",
     "best_for": "Expandability",
     "verdict": "The expandable workhorse. Start with 2kWh, grow to 8kWh as needed. 2400W runs full-size appliances. More ports than you'll ever need. Great mid-point between portable and home backup.",
-    "categories": ["home-backup", "rv"],
+    "categories": ["home-backup", "rv", "emergency"],
     "pros": [
       "Expandable to 8,192Wh",
       "2400W powers large appliances",
@@ -316,7 +316,7 @@
     "image": "/images/products/jackery-explorer-2000-plus.png",
     "best_for": "Jackery Fans",
     "verdict": "Jackery's answer to serious home backup. 2kWh capacity, expandable to 12kWh. 3000W output handles AC units and power tools. 4,000 cycle battery with Jackery's legendary reliability.",
-    "categories": ["home-backup", "rv"],
+    "categories": ["home-backup", "rv", "emergency"],
     "pros": [
       "Expandable to 12kWh",
       "3000W handles heavy loads",
@@ -346,7 +346,7 @@
     "image": "/images/products/anker-solix-c1000.png",
     "best_for": "Value 1kWh",
     "verdict": "Best specs-per-dollar in the 1000Wh class. 2000W output beats EcoFlow Delta 2 at a lower price. Anker's charging expertise shows with fast 58-min recharge. The value pick for power users.",
-    "categories": ["camping", "home-backup", "budget"],
+    "categories": ["camping", "home-backup", "budget", "emergency"],
     "pros": [
       "2000W output—best in class",
       "Charges in 58 minutes",
