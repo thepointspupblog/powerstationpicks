@@ -3,7 +3,6 @@
     "id": "ecoflow-delta-2",
     "name": "EcoFlow Delta 2",
     "brand": "EcoFlow",
-    "image": "/images/products/ecoflow-delta-2.png",
     "capacity_wh": 1024,
     "output_w": 1800,
     "surge_w": 2700,
@@ -13,17 +12,27 @@
     "price": 399,
     "rating": 4.7,
     "amazon_url": "https://amzn.to/44oxwHg",
-    "categories": ["camping", "rv", "home-backup", "emergency"],
-    "pros": ["Fast charging (0-80% in 50 min)", "Expandable to 3kWh", "Great app", "Lightweight for capacity"],
-    "cons": ["Pricey", "Fan can be loud under load"],
-    "verdict": "Best all-around for most people.",
-    "best_for": "Overall"
+    "image": "/images/products/ecoflow-delta-2.png",
+    "best_for": "Overall",
+    "verdict": "Powers 90% of home appliances. Charges to 80% in just 50 minutes—fastest in class. Expandable up to 3kWh. The one reviewers call \"the power station to beat.\"",
+    "categories": ["camping", "home-backup", "rv"],
+    "pros": [
+      "Fastest charging: 0-80% in 50 minutes",
+      "Powers fridges, power tools, even small AC units",
+      "Expandable to 3,000Wh with extra batteries",
+      "Excellent app with remote monitoring",
+      "6 AC outlets—more than competitors"
+    ],
+    "cons": [
+      "Fan can be loud under heavy load",
+      "27 lbs is heavy for backpacking",
+      "App requires account login"
+    ]
   },
   {
     "id": "jackery-explorer-1000-v2",
     "name": "Jackery Explorer 1000 v2",
     "brand": "Jackery",
-    "image": "/images/products/jackery-explorer-1000-v2.png",
     "capacity_wh": 1070,
     "output_w": 1500,
     "surge_w": 3000,
@@ -33,17 +42,27 @@
     "price": 399,
     "rating": 4.7,
     "amazon_url": "https://amzn.to/4iUUEDm",
-    "categories": ["camping", "rv", "home-backup"],
-    "pros": ["Easiest to use", "4000 cycle battery", "Trusted brand", "Great build quality"],
-    "cons": ["Slower charging than EcoFlow", "Less expandable"],
-    "verdict": "Best for beginners who want reliability.",
-    "best_for": "Ease of Use"
+    "image": "/images/products/jackery-explorer-1000-v2.png",
+    "best_for": "Reliability",
+    "verdict": "\"The easiest power station recommendation I've ever made\" —Android Police. 4,000 cycle battery outlasts competitors. Kept a fridge and router running during a 7-day outage.",
+    "categories": ["camping", "home-backup", "rv"],
+    "pros": [
+      "4,000 charge cycles—10+ year lifespan",
+      "Ultra-quiet operation even under load",
+      "Built-in emergency light",
+      "UPS function protects electronics",
+      "1-hour full recharge with emergency mode"
+    ],
+    "cons": [
+      "Solar charging slower than competitors",
+      "Uses proprietary MC3 connectors",
+      "No expandable battery option"
+    ]
   },
   {
     "id": "bluetti-ac70",
     "name": "Bluetti AC70",
     "brand": "Bluetti",
-    "image": "/images/products/bluetti-ac70.png",
     "capacity_wh": 768,
     "output_w": 1000,
     "surge_w": 2000,
@@ -53,17 +72,27 @@
     "price": 379,
     "rating": 4.7,
     "amazon_url": "https://amzn.to/4rVxPn8",
-    "categories": ["camping", "emergency", "budget"],
-    "pros": ["Great price for LiFePO4", "Turbo charging", "Solid build", "Good app"],
-    "cons": ["Lower capacity than competitors", "Fewer ports"],
-    "verdict": "Best value under $500.",
-    "best_for": "Value"
+    "image": "/images/products/bluetti-ac70.png",
+    "best_for": "Value",
+    "verdict": "Premium features at a mid-range price. LiFePO4 battery, turbo charging to 80% in 45 min, and app control—features you'd expect at $600+. Best bang for your buck under $500.",
+    "categories": ["camping", "budget"],
+    "pros": [
+      "Best value: premium features under $400",
+      "Turbo charges to 80% in 45 minutes",
+      "Lightweight at 22.5 lbs",
+      "Full app control and monitoring",
+      "Powers most small appliances"
+    ],
+    "cons": [
+      "1000W output limits larger appliances",
+      "Not expandable",
+      "Fewer AC outlets than competitors"
+    ]
   },
   {
     "id": "jackery-explorer-300-plus",
     "name": "Jackery Explorer 300 Plus",
     "brand": "Jackery",
-    "image": "/images/products/jackery-explorer-300-plus.png",
     "capacity_wh": 288,
     "output_w": 300,
     "surge_w": 600,
@@ -73,17 +102,27 @@
     "price": 349,
     "rating": 4.6,
     "amazon_url": "https://amzn.to/3MwZmuV",
+    "image": "/images/products/jackery-explorer-300-plus.png",
+    "best_for": "Portability",
+    "verdict": "The backpacker's choice. At just 8.27 lbs, it's light enough to actually carry on trails. Powers phones, cameras, drones, and lights for an entire weekend. 4,000 cycle LiFePO4 battery.",
     "categories": ["camping", "budget"],
-    "pros": ["Ultra lightweight", "LiFePO4 at low price", "Very portable", "Reliable"],
-    "cons": ["Limited output", "Cannot run large devices"],
-    "verdict": "Best for backpacking and light camping.",
-    "best_for": "Portability"
+    "pros": [
+      "Ultra-light: only 8.27 lbs",
+      "10+ year battery lifespan",
+      "Perfect for phones, cameras, laptops",
+      "Compact enough for a backpack",
+      "Solar charging compatible"
+    ],
+    "cons": [
+      "300W limits what you can power",
+      "Won't run larger appliances",
+      "Smaller capacity for the price"
+    ]
   },
   {
     "id": "ecoflow-delta-pro-3",
     "name": "EcoFlow Delta Pro 3",
     "brand": "EcoFlow",
-    "image": "/images/products/ecoflow-delta-pro-3.png",
     "capacity_wh": 4096,
     "output_w": 4000,
     "surge_w": 8000,
@@ -93,17 +132,27 @@
     "price": 2299,
     "rating": 4.5,
     "amazon_url": "https://amzn.to/4oPLiKk",
-    "categories": ["home-backup", "emergency", "rv"],
-    "pros": ["Massive capacity", "Home panel integration", "Expandable to 12kWh", "10-year warranty"],
-    "cons": ["Very heavy", "Expensive"],
-    "verdict": "Best for whole-home backup.",
-    "best_for": "Home Backup"
+    "image": "/images/products/ecoflow-delta-pro-3.png",
+    "best_for": "Home Backup",
+    "verdict": "Serious whole-home backup. 4kWh powers a fridge for 20-30 hours. Expandable to 12kWh. Integrates with your home panel for seamless backup. The closest thing to a home battery system in portable form.",
+    "categories": ["home-backup"],
+    "pros": [
+      "Massive 4,096Wh capacity",
+      "Powers entire home essentials",
+      "Expandable to 12kWh",
+      "4000W output runs AC units",
+      "Smart home panel integration"
+    ],
+    "cons": [
+      "114 lbs—not portable",
+      "Premium price point",
+      "Overkill for camping"
+    ]
   },
   {
     "id": "anker-521",
     "name": "Anker 521 PowerHouse",
     "brand": "Anker",
-    "image": "/images/products/anker-521.png",
     "capacity_wh": 256,
     "output_w": 200,
     "surge_w": 450,
@@ -113,17 +162,27 @@
     "price": 140,
     "rating": 4.4,
     "amazon_url": "https://amzn.to/3L0kYiN",
+    "image": "/images/products/anker-521.png",
+    "best_for": "Budget",
+    "verdict": "Trusted brand, unbeatable price. Anker's 5-year warranty backs this entry-level unit. Perfect for charging phones, tablets, and laptops. A reliable choice from a company known for quality chargers.",
     "categories": ["camping", "budget"],
-    "pros": ["Trusted brand", "5-year warranty", "Compact", "Good price"],
-    "cons": ["Low output", "Basic features"],
-    "verdict": "Reliable budget option from a trusted brand.",
-    "best_for": "Budget"
+    "pros": [
+      "Anker quality at budget price",
+      "5-year warranty—best in class",
+      "Lightweight and portable",
+      "LiFePO4 battery longevity",
+      "Simple, reliable operation"
+    ],
+    "cons": [
+      "200W limits use cases",
+      "Only for small electronics",
+      "No app connectivity"
+    ]
   },
   {
     "id": "bluetti-eb3a",
     "name": "Bluetti EB3A",
     "brand": "Bluetti",
-    "image": "/images/products/bluetti-eb3a.png",
     "capacity_wh": 268,
     "output_w": 600,
     "surge_w": 1200,
@@ -133,17 +192,27 @@
     "price": 209,
     "rating": 4.1,
     "amazon_url": "https://amzn.to/4pAOD1f",
-    "categories": ["camping", "budget", "emergency"],
-    "pros": ["600W output at $209", "Fast charging", "LiFePO4", "App control"],
-    "cons": ["Smaller capacity", "Shorter cycle life"],
-    "verdict": "Most power for under $250.",
-    "best_for": "Ultra Budget"
+    "image": "/images/products/bluetti-eb3a.png",
+    "best_for": "Ultra Budget",
+    "verdict": "600W output at $209 is remarkable. Run a mini fridge, blender, or TV—appliances other budget units can't touch. Fast charging, LiFePO4, and app control. Punches way above its price.",
+    "categories": ["camping", "budget"],
+    "pros": [
+      "600W output—3x most budget units",
+      "Can run small appliances",
+      "Fast 2-hour recharge",
+      "App control included",
+      "Wireless phone charging pad"
+    ],
+    "cons": [
+      "Smaller capacity (268Wh)",
+      "Fewer charge cycles (2,500)",
+      "Limited runtime for larger devices"
+    ]
   },
   {
     "id": "ecoflow-river-2-pro",
     "name": "EcoFlow River 2 Pro",
     "brand": "EcoFlow",
-    "image": "/images/products/ecoflow-river-2-pro.png",
     "capacity_wh": 768,
     "output_w": 800,
     "surge_w": 1600,
@@ -153,17 +222,27 @@
     "price": 315,
     "rating": 4.5,
     "amazon_url": "https://amzn.to/4ptMpk2",
-    "categories": ["camping", "rv", "emergency", "budget"],
-    "pros": ["Fastest charging in class", "X-Boost to 1600W", "Lightweight", "Great app"],
-    "cons": ["Not expandable", "Pricier than Bluetti AC70"],
-    "verdict": "Best for fast charging needs.",
-    "best_for": "Fast Charging"
+    "image": "/images/products/ecoflow-river-2-pro.png",
+    "best_for": "Fast Charging",
+    "verdict": "0-100% in 70 minutes—unmatched charging speed. Perfect for car camping when you need to top up quickly. X-Boost pushes output to 1600W for power tools and small appliances.",
+    "categories": ["camping", "rv"],
+    "pros": [
+      "Fastest full charge: 70 minutes",
+      "X-Boost mode for higher loads",
+      "Lightweight for capacity",
+      "Excellent EcoFlow app",
+      "Solar charging capable"
+    ],
+    "cons": [
+      "800W base output lower than some",
+      "X-Boost not for all devices",
+      "Mid-range capacity"
+    ]
   },
   {
     "id": "bluetti-ac200max",
     "name": "Bluetti AC200L",
     "brand": "Bluetti",
-    "image": "/images/products/bluetti-ac200max.png",
     "capacity_wh": 2048,
     "output_w": 2400,
     "surge_w": 3600,
@@ -173,17 +252,27 @@
     "price": 1099,
     "rating": 4.6,
     "amazon_url": "https://amzn.to/3YvMqId",
-    "categories": ["home-backup", "rv", "emergency"],
-    "pros": ["Expandable to 8192Wh", "Dual charging", "Tons of ports", "Solid build"],
-    "cons": ["Heavy", "Slow app"],
-    "verdict": "Great expandable mid-range option.",
-    "best_for": "Expandability"
+    "image": "/images/products/bluetti-ac200max.png",
+    "best_for": "Expandability",
+    "verdict": "The expandable workhorse. Start with 2kWh, grow to 8kWh as needed. 2400W runs full-size appliances. More ports than you'll ever need. Great mid-point between portable and home backup.",
+    "categories": ["home-backup", "rv"],
+    "pros": [
+      "Expandable to 8,192Wh",
+      "2400W powers large appliances",
+      "13 output ports total",
+      "Dual AC + solar charging",
+      "3,500 cycle battery"
+    ],
+    "cons": [
+      "62 lbs—needs two hands",
+      "Pricey base unit",
+      "Extra batteries sold separately"
+    ]
   },
   {
     "id": "goal-zero-yeti-1000x",
     "name": "Goal Zero Yeti 1000X",
     "brand": "Goal Zero",
-    "image": "/images/products/goal-zero-yeti-1000x.png",
     "capacity_wh": 983,
     "output_w": 1500,
     "surge_w": 3000,
@@ -193,17 +282,28 @@
     "price": 1194,
     "rating": 4.4,
     "amazon_url": "https://amzn.to/4a83YRY",
-    "categories": ["camping", "rv", "emergency"],
-    "pros": ["Premium build", "Great customer service", "Chainable"],
-    "cons": ["Li-ion battery (fewer cycles)", "Overpriced", "Heavy"],
-    "verdict": "Premium brand but better value elsewhere.",
-    "best_for": "Brand Loyalists"
+    "image": "/images/products/goal-zero-yeti-1000x.png",
+    "best_for": "Brand Trust",
+    "verdict": "The premium choice for Goal Zero loyalists. Tank-built construction and proven track record. But Li-ion battery (500 cycles) and higher price mean better value exists elsewhere.",
+    "categories": ["camping", "rv"],
+    "pros": [
+      "Premium build quality",
+      "Proven brand reputation",
+      "Strong dealer/service network",
+      "Tank-like durability",
+      "Good app experience"
+    ],
+    "cons": [
+      "Li-ion only 500 cycles",
+      "Overpriced vs. competitors",
+      "Heavier than alternatives",
+      "Slower charging"
+    ]
   },
   {
     "id": "jackery-explorer-2000-plus",
     "name": "Jackery Explorer 2000 Plus",
     "brand": "Jackery",
-    "image": "/images/products/jackery-explorer-2000-plus.png",
     "capacity_wh": 2042,
     "output_w": 3000,
     "surge_w": 6000,
@@ -213,30 +313,51 @@
     "price": 1199,
     "rating": 4.5,
     "amazon_url": "https://amzn.to/3MAm5pV",
-    "categories": ["home-backup", "rv", "emergency"],
-    "pros": ["Expandable to 12kWh", "3000W output", "4000 cycle battery", "Excellent build"],
-    "cons": ["Heavy", "Expensive"],
-    "verdict": "Jackery's best for serious home backup.",
-    "best_for": "Jackery Home Backup"
+    "image": "/images/products/jackery-explorer-2000-plus.png",
+    "best_for": "Jackery Fans",
+    "verdict": "Jackery's answer to serious home backup. 2kWh capacity, expandable to 12kWh. 3000W output handles AC units and power tools. 4,000 cycle battery with Jackery's legendary reliability.",
+    "categories": ["home-backup", "rv"],
+    "pros": [
+      "Expandable to 12kWh",
+      "3000W handles heavy loads",
+      "4,000 cycle longevity",
+      "Jackery build quality",
+      "Full app connectivity"
+    ],
+    "cons": [
+      "61.5 lbs—not portable",
+      "Premium price",
+      "Extra batteries expensive"
+    ]
   },
   {
     "id": "anker-solix-c1000",
     "name": "Anker SOLIX C1000",
     "brand": "Anker",
-    "image": "/images/products/anker-solix-c1000.png",
     "capacity_wh": 1056,
     "output_w": 2000,
-    "surge_w": 3000,
+    "surge_w": 2400,
     "weight_lbs": 27.9,
     "battery_type": "LiFePO4",
     "cycles": 3000,
     "price": 371,
     "rating": 4.5,
     "amazon_url": "https://amzn.to/4pFPjSU",
-    "categories": ["camping", "rv", "home-backup", "emergency"],
-    "pros": ["Great price for capacity", "Fast charging", "Anker quality", "Good app"],
-    "cons": ["Newer product, less track record", "Slightly heavy"],
-    "verdict": "Strong value competitor to EcoFlow Delta 2.",
-    "best_for": "Value 1000Wh"
+    "image": "/images/products/anker-solix-c1000.png",
+    "best_for": "Value 1kWh",
+    "verdict": "Best specs-per-dollar in the 1000Wh class. 2000W output beats EcoFlow Delta 2 at a lower price. Anker's charging expertise shows with fast 58-min recharge. The value pick for power users.",
+    "categories": ["camping", "home-backup", "budget"],
+    "pros": [
+      "2000W output—best in class",
+      "Charges in 58 minutes",
+      "Anker quality and warranty",
+      "Lower price than competitors",
+      "Retractable handle design"
+    ],
+    "cons": [
+      "Newer to market",
+      "Slightly heavier (27.9 lbs)",
+      "Smaller brand ecosystem"
+    ]
   }
 ]
