@@ -135,7 +135,7 @@
     "image": "/images/products/ecoflow-delta-pro-3.png",
     "best_for": "Home Backup",
     "verdict": "Serious whole-home backup. 4kWh powers a fridge for 20-30 hours. Expandable to 12kWh. Integrates with your home panel for seamless backup. The closest thing to a home battery system in portable form.",
-    "categories": ["home-backup", "emergency"],
+    "categories": ["home-backup", "emergency", "premium"],
     "pros": [
       "Massive 4,096Wh capacity",
       "Powers entire home essentials",
@@ -240,7 +240,7 @@
     ]
   },
   {
-    "id": "bluetti-ac200max",
+    "id": "bluetti-ac200l",
     "name": "Bluetti AC200L",
     "brand": "Bluetti",
     "capacity_wh": 2048,
@@ -255,7 +255,7 @@
     "image": "/images/products/bluetti-ac200max.png",
     "best_for": "Expandability",
     "verdict": "The expandable workhorse. Start with 2kWh, grow to 8kWh as needed. 2400W runs full-size appliances. More ports than you'll ever need. Great mid-point between portable and home backup.",
-    "categories": ["home-backup", "rv", "emergency"],
+    "categories": ["home-backup", "rv", "emergency", "premium"],
     "pros": [
       "Expandable to 8,192Wh",
       "2400W powers large appliances",
@@ -316,7 +316,7 @@
     "image": "/images/products/jackery-explorer-2000-plus.png",
     "best_for": "Jackery Fans",
     "verdict": "Jackery's answer to serious home backup. 2kWh capacity, expandable to 12kWh. 3000W output handles AC units and power tools. 4,000 cycle battery with Jackery's legendary reliability.",
-    "categories": ["home-backup", "rv", "emergency"],
+    "categories": ["home-backup", "rv", "emergency", "premium"],
     "pros": [
       "Expandable to 12kWh",
       "3000W handles heavy loads",
@@ -358,6 +358,157 @@
       "Newer to market",
       "Slightly heavier (27.9 lbs)",
       "Smaller brand ecosystem"
+    ]
+  },
+  {
+    "id": "bluetti-ac180",
+    "name": "Bluetti AC180",
+    "brand": "Bluetti",
+    "capacity_wh": 1152,
+    "output_w": 1800,
+    "surge_w": 2700,
+    "weight_lbs": 35,
+    "battery_type": "LiFePO4",
+    "cycles": 3500,
+    "price": 499,
+    "rating": 4.6,
+    "amazon_url": "https://amzn.to/4aBcDe1",
+    "image": "/images/products/bluetti-ac180.png",
+    "best_for": "Mid-Range",
+    "verdict": "PCWorld's top pick for efficiency—actually delivers 1,000Wh usable power. 1800W output matches the Delta 2 at a lower price. Power Lifting mode handles 2700W surges. The sweet spot for most users.",
+    "categories": ["camping", "home-backup", "rv", "emergency"],
+    "pros": [
+      "Exceptional 85%+ efficiency",
+      "1800W matches premium units",
+      "0-80% charge in 45 minutes",
+      "Wireless charging pad built-in",
+      "5-year warranty"
+    ],
+    "cons": [
+      "35 lbs is fairly heavy",
+      "Not expandable with extra batteries",
+      "Bluetooth only (no WiFi)"
+    ]
+  },
+  {
+    "id": "ecoflow-delta-2-max",
+    "name": "EcoFlow Delta 2 Max",
+    "brand": "EcoFlow",
+    "capacity_wh": 2048,
+    "output_w": 2400,
+    "surge_w": 4800,
+    "weight_lbs": 50,
+    "battery_type": "LiFePO4",
+    "cycles": 3000,
+    "price": 1399,
+    "rating": 4.6,
+    "amazon_url": "https://amzn.to/4dEfGh2",
+    "image": "/images/products/ecoflow-delta-2-max.png",
+    "best_for": "Power User",
+    "verdict": "The Delta 2's bigger brother. 2kWh expandable to 6kWh. 2400W runs almost any appliance. 30% lighter than competitors in its class. Charges to 80% in just over an hour. For those who need serious power.",
+    "categories": ["home-backup", "rv", "emergency", "premium"],
+    "pros": [
+      "2kWh expandable to 6kWh",
+      "30% lighter than competitors",
+      "80% charge in ~1 hour",
+      "X-Boost to 3400W",
+      "15 output ports"
+    ],
+    "cons": [
+      "50 lbs—borderline portable",
+      "$1,400+ price point",
+      "Overkill for weekend camping"
+    ]
+  },
+  {
+    "id": "jackery-explorer-1000-plus",
+    "name": "Jackery Explorer 1000 Plus",
+    "brand": "Jackery",
+    "capacity_wh": 1264,
+    "output_w": 2000,
+    "surge_w": 4000,
+    "weight_lbs": 31,
+    "battery_type": "LiFePO4",
+    "cycles": 4000,
+    "price": 999,
+    "rating": 4.6,
+    "amazon_url": "https://amzn.to/4gHiJk3",
+    "image": "/images/products/jackery-explorer-1000-plus.png",
+    "best_for": "Expandable",
+    "verdict": "Jackery's expandable powerhouse. 1.2kWh expands to 5kWh with add-on batteries. 2000W output handles 99% of devices. Cooler-style handle makes 31 lbs manageable. 10-year LiFePO4 lifespan.",
+    "categories": ["camping", "home-backup", "rv", "emergency"],
+    "pros": [
+      "Expandable to 5kWh",
+      "2000W handles most appliances",
+      "4,000 charge cycles",
+      "Ergonomic carry handle",
+      "Full app with WiFi/Bluetooth"
+    ],
+    "cons": [
+      "~$1,200 price tag",
+      "Battery packs $799 each",
+      "Heavier than 1000 v2"
+    ]
+  },
+  {
+    "id": "anker-solix-f2000",
+    "name": "Anker SOLIX F2000",
+    "brand": "Anker",
+    "capacity_wh": 2048,
+    "output_w": 2400,
+    "surge_w": 3600,
+    "weight_lbs": 67,
+    "battery_type": "LiFePO4",
+    "cycles": 3000,
+    "price": 1299,
+    "rating": 4.5,
+    "amazon_url": "https://amzn.to/4kLmNo4",
+    "image": "/images/products/anker-solix-f2000.png",
+    "best_for": "Wheeled",
+    "verdict": "The only premium unit with wheels. 67 lbs rolls anywhere thanks to EasyTow handle. 2400W output, expandable to 4kWh. 20ms UPS switchover protects sensitive electronics. GaNPrime tech runs cooler and lasts longer.",
+    "categories": ["home-backup", "rv", "emergency", "premium"],
+    "pros": [
+      "Built-in wheels and handle",
+      "2400W with 3600W surge",
+      "20ms UPS switchover",
+      "Expandable to 4096Wh",
+      "10-year lifespan rating"
+    ],
+    "cons": [
+      "67 lbs—heaviest in class",
+      "~$1,300-2,000 price range",
+      "Premium tier only"
+    ]
+  },
+  {
+    "id": "bluetti-ac500",
+    "name": "Bluetti AC500 + B300S",
+    "brand": "Bluetti",
+    "capacity_wh": 3072,
+    "output_w": 5000,
+    "surge_w": 10000,
+    "weight_lbs": 150,
+    "battery_type": "LiFePO4",
+    "cycles": 3500,
+    "price": 3499,
+    "rating": 4.4,
+    "amazon_url": "https://amzn.to/4pQrSt5",
+    "image": "/images/products/bluetti-ac500.png",
+    "best_for": "Max Power",
+    "verdict": "The ultimate splurge for whole-home backup. 5000W inverter handles anything. Expandable to 18.4kWh with 6 batteries. Split-phase 240V option for heavy appliances. Overkill for camping—perfect for true energy independence.",
+    "categories": ["home-backup", "emergency", "premium"],
+    "pros": [
+      "5000W continuous, 10000W surge",
+      "Expandable to 18.4kWh",
+      "240V split-phase capable",
+      "Runs AC units, well pumps, etc.",
+      "Smart home integration"
+    ],
+    "cons": [
+      "150+ lbs total system",
+      "$3,500-5,000+ investment",
+      "Requires B300S battery (sold together)",
+      "Overkill for most users"
     ]
   }
 ]
