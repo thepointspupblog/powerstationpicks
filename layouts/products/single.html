@@ -1,17 +1,48 @@
 {{ define "main" }}
-<div class="category-header">
-  <h1>{{ .Title }}</h1>
-  <p>{{ .Description }}</p>
-</div>
+{{ $pid := .Params.product_id }}
+{{ $product := index (where $.Site.Data.products "id" $pid) 0 }}
+{{ with $product }}
+<div class="product-detail">
+  <div class="product-header">
+    <div class="product-detail-image">
+      <img src="{{ .image }}" alt="{{ .name }}">
+    </div>
+    <div class="product-header-info">
+      <h1>{{ .name }}</h1>
+      <div class="product-meta">
+        <span class="product-brand">{{ .brand }}</span>
+        {{ with .best_for }}<span class="best-for">{{ . }}</span>{{ end }}
+      </div>
+      <div class="product-rating"><span class="star">★</span> {{ .rating }}/5</div>
+      <div class="product-price">${{ .price }}</div>
+      <a href="{{ .amazon_url }}" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+    </div>
+  </div>
 
-{{ .Content }}
+  <p><strong>{{ .verdict }}</strong></p>
 
-{{ $cat := .Params.category_id }}
-<div class="product-grid">
-  {{ range $.Site.Data.products }}
-    {{ if in .categories $cat }}
-      {{ partial "product-card.html" . }}
-    {{ end }}
-  {{ end }}
+  <h2>Specifications</h2>
+  <table class="specs-table">
+    <tr><th>Capacity</th><td>{{ .capacity_wh }}Wh</td></tr>
+    <tr><th>Output</th><td>{{ .output_w }}W continuous / {{ .surge_w }}W surge</td></tr>
+    <tr><th>Weight</th><td>{{ .weight_lbs }} lbs</td></tr>
+    <tr><th>Battery</th><td>{{ .battery_type }}</td></tr>
+    <tr><th>Cycle Life</th><td>{{ .cycles }}+ cycles</td></tr>
+    <tr><th>Price</th><td>${{ .price }}</td></tr>
+  </table>
+
+  <div class="pros-cons">
+    <div class="pros">
+      <h3>✓ Pros</h3>
+      <ul>{{ range .pros }}<li>{{ . }}</li>{{ end }}</ul>
+    </div>
+    <div class="cons">
+      <h3>✗ Cons</h3>
+      <ul>{{ range .cons }}<li>{{ . }}</li>{{ end }}</ul>
+    </div>
+  </div>
+
+  <a href="{{ .amazon_url }}" class="amazon-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
 </div>
+{{ end }}
 {{ end }}
