@@ -42,4 +42,4 @@ The faster charging and higher output are more useful day-to-day than extra batt
 
 <a href="https://amzn.to/44oxwHg" class="amazon-btn" target="_blank" rel="nofollow noopener">EcoFlow Delta 2 on Amazon</a>
 
-<a href="https://amzn.to/4iUUEDm" class="amazon-btn" target="_blank" rel="nofollow noopener">Jackery 1000 v2 on Amazon</a>
+*Prefer longer battery life?* <a href="https://amzn.to/4iUUEDm" class="amazon-btn" target="_blank" rel="nofollow noopener">Jackery 1000 v2 on Amazon</a>

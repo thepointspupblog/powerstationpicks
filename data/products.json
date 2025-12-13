@@ -372,7 +372,7 @@
     "cycles": 3500,
     "price": 499,
     "rating": 4.6,
-    "amazon_url": "https://amzn.to/4aBcDe1",
+    "amazon_url": "https://amzn.to/4rVl5gg",
     "image": "/images/products/bluetti-ac180.png",
     "best_for": "Mid-Range",
     "verdict": "PCWorld's top pick for efficiency—actually delivers 1,000Wh usable power. 1800W output matches the Delta 2 at a lower price. Power Lifting mode handles 2700W surges. The sweet spot for most users.",
@@ -400,9 +400,9 @@
     "weight_lbs": 50,
     "battery_type": "LiFePO4",
     "cycles": 3000,
-    "price": 1399,
+    "price": 849,
     "rating": 4.6,
-    "amazon_url": "https://amzn.to/4dEfGh2",
+    "amazon_url": "https://amzn.to/4578sVr",
     "image": "/images/products/ecoflow-delta-2-max.png",
     "best_for": "Power User",
     "verdict": "The Delta 2's bigger brother. 2kWh expandable to 6kWh. 2400W runs almost any appliance. 30% lighter than competitors in its class. Charges to 80% in just over an hour. For those who need serious power.",
@@ -416,38 +416,8 @@
     ],
     "cons": [
       "50 lbs—borderline portable",
-      "$1,400+ price point",
+      "$849+ price point",
       "Overkill for weekend camping"
-    ]
-  },
-  {
-    "id": "jackery-explorer-1000-plus",
-    "name": "Jackery Explorer 1000 Plus",
-    "brand": "Jackery",
-    "capacity_wh": 1264,
-    "output_w": 2000,
-    "surge_w": 4000,
-    "weight_lbs": 31,
-    "battery_type": "LiFePO4",
-    "cycles": 4000,
-    "price": 999,
-    "rating": 4.6,
-    "amazon_url": "https://amzn.to/4gHiJk3",
-    "image": "/images/products/jackery-explorer-1000-plus.png",
-    "best_for": "Expandable",
-    "verdict": "Jackery's expandable powerhouse. 1.2kWh expands to 5kWh with add-on batteries. 2000W output handles 99% of devices. Cooler-style handle makes 31 lbs manageable. 10-year LiFePO4 lifespan.",
-    "categories": ["camping", "home-backup", "rv", "emergency"],
-    "pros": [
-      "Expandable to 5kWh",
-      "2000W handles most appliances",
-      "4,000 charge cycles",
-      "Ergonomic carry handle",
-      "Full app with WiFi/Bluetooth"
-    ],
-    "cons": [
-      "~$1,200 price tag",
-      "Battery packs $799 each",
-      "Heavier than 1000 v2"
     ]
   },
   {
@@ -460,9 +430,9 @@
     "weight_lbs": 67,
     "battery_type": "LiFePO4",
     "cycles": 3000,
-    "price": 1299,
+    "price": 849,
     "rating": 4.5,
-    "amazon_url": "https://amzn.to/4kLmNo4",
+    "amazon_url": "https://amzn.to/3MBwAcw",
     "image": "/images/products/anker-solix-f2000.png",
     "best_for": "Wheeled",
     "verdict": "The only premium unit with wheels. 67 lbs rolls anywhere thanks to EasyTow handle. 2400W output, expandable to 4kWh. 20ms UPS switchover protects sensitive electronics. GaNPrime tech runs cooler and lasts longer.",
@@ -476,39 +446,8 @@
     ],
     "cons": [
       "67 lbs—heaviest in class",
-      "~$1,300-2,000 price range",
+      "~$850-1,300 price range",
       "Premium tier only"
-    ]
-  },
-  {
-    "id": "bluetti-ac500",
-    "name": "Bluetti AC500 + B300S",
-    "brand": "Bluetti",
-    "capacity_wh": 3072,
-    "output_w": 5000,
-    "surge_w": 10000,
-    "weight_lbs": 150,
-    "battery_type": "LiFePO4",
-    "cycles": 3500,
-    "price": 3499,
-    "rating": 4.4,
-    "amazon_url": "https://amzn.to/4pQrSt5",
-    "image": "/images/products/bluetti-ac500.png",
-    "best_for": "Max Power",
-    "verdict": "The ultimate splurge for whole-home backup. 5000W inverter handles anything. Expandable to 18.4kWh with 6 batteries. Split-phase 240V option for heavy appliances. Overkill for camping—perfect for true energy independence.",
-    "categories": ["home-backup", "emergency", "premium"],
-    "pros": [
-      "5000W continuous, 10000W surge",
-      "Expandable to 18.4kWh",
-      "240V split-phase capable",
-      "Runs AC units, well pumps, etc.",
-      "Smart home integration"
-    ],
-    "cons": [
-      "150+ lbs total system",
-      "$3,500-5,000+ investment",
-      "Requires B300S battery (sold together)",
-      "Overkill for most users"
     ]
   }
 ]
